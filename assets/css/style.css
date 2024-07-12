@@ -1,0 +1,82 @@
+/* .myicom {
+    color: red;
+    font-size: 20px;
+    &:hover {
+        text-decoration: underline;
+
+    }
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mytitle {
+    box-shadow: 0px 2px 4px #777;
+    padding: 1px;
+    border-radius: 7px;
+    /* &:before{
+        content: "";
+        border-left: 1px solid red;
+        padding-right: 10px;
+    } */
+
+    &:after {
+        content:"Student's Bio" ;
+        color: orange;
+    }
+
+    margin: 20px;
+}
+
+.myicon {
+    color: whitesmoke;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.aboutme {
+    position: relative
+    ;
+    border-left: 2px solid green;
+    padding-left: 20px;
+    margin: 20px;
+
+        &:before {
+
+    }
+
+    &:after {
+
+        content:" Hay i am panno Yangon i love coding and coding. now i am coding on html css, and , javascript. but i am going build student's bio page." ;
+        color: blueviolet;
+
+        
+    }
+
+    margin: 20px;
+}
+
+.mypen {
+    position: absolute;
+    color: blue;
+    font-size: 20px;
+    left: -10px;
+    top: -4px;
+}
+
+.myimage {
+    --shape: 50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38% ;
+    width: 150px;
+    /* height: 200px; */
+    clip-path: polygon(var(--shape));
+    background-color: #9a8406;
+    padding: 30px;
+    cursor: pointer;
+    margin-left: 25%;
+}
