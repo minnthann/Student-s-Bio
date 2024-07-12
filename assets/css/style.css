@@ -71,7 +71,7 @@ body {
 }
 
 .myimage {
-    --shape: 50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38% ;
+    --shape: 50% 0%, 0% 100%, 100% 100% ;
     width: 150px;
     /* height: 200px; */
     clip-path: polygon(var(--shape));
@@ -79,4 +79,53 @@ body {
     padding: 30px;
     cursor: pointer;
     margin-left: 25%;
+}
+
+.mycontent {
+    margin: 10px;
+    border: 1px solid #777;
+    padding: 30px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 50px;
+    background-color: #9a8406;
+
+}
+
+.email {
+    color: darkcyan;
+    /* box-shadow: 0px 1px 2px whitesmoke; */
+    width: 100%;
+    padding: 7px;
+    /* background-color: #777;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 50px; */
+    &:before {
+        /* border: 1px solid; */
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        /* height: 20px; */
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: "Email: 123@example.com";
+        font-family: cursive;
+        padding-left: 10px;
+        color: whitesmoke;
+    }
+}
+
+.address {
+
+}
+
+.telephome {
+
+}
+
+.github {
+
 }
