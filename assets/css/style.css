@@ -88,7 +88,7 @@ body {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 50px;
     background-color: #9a8406;
-
+    display: flex;
 }
 
 .email {
@@ -111,21 +111,72 @@ body {
         background-color: beige;
     }
     &:after {
-        content: "Email: 123@example.com";
+        content: ":Email";
         font-family: cursive;
         padding-left: 10px;
-        color: whitesmoke;
+        color: rgb(133, 89, 89);
     }
 }
 
 .address {
-
+    color: darkcyan;
+    width: 100%;
+    padding: 7px;
+    &:before {
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: ":addeds";
+        font-family: cursive;
+        padding-left: 10px;
+        color: rgb(133, 89, 89);
+    }
 }
 
 .telephome {
-
+    color: darkcyan;
+    width: 100%;
+    padding: 7px;
+    &:before {
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: ":phome";
+        font-family: cursive;
+        padding-left: 10px;
+        color: rgb(133, 89, 89);
+    }
 }
 
 .github {
-
+    color: darkcyan;
+    width: 100%;
+    padding: 7px;
+    &:before {
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: ":github";
+        font-family: cursive;
+        padding-left: 10px;
+        color: rgb(133, 89, 89);
+    }
 }
